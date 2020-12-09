@@ -13,12 +13,12 @@ class ebookController extends Controller
     public function list() {
         $title1 = 'The Cat in the Hat';
         $isbn1 = '978-0-7172-6059-1';
-        $bookCategory1 = 'Children's Literature';
+        $bookCategory1 = 'Childrens Literature';
         $noPages1 = '61';
 
         $title2 = 'The Lorax';
         $isbn2 = '0-394-82337-0';
-        $bookCategory2 = 'Children's Literature';
+        $bookCategory2 = 'Childrens Literature';
         $noPages2 = '64';
 
         return view('subview/list', compact('title1', 'isbn1', 'bookCategory1', 'noPages1', 
